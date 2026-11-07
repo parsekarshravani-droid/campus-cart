@@ -1,0 +1,38 @@
+# dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# environment files — never commit credentials
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+backend/.env
+frontend/.env
+*.pem
+
+# build output
+frontend/dist/
+frontend/build/
+coverage/
+.vite/
+
+# runtime uploads (development local-disk fallback)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# logs & caches
+*.log
+logs/
+npm-debug.log*
+.cache/
+.mongodb-binaries/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
