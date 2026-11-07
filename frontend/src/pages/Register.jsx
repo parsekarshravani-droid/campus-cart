@@ -118,7 +118,7 @@ export default function Register() {
           </div>
         </div>
 
-        <p className="auth__panel-foot">© 2026 CAMPUS CART. Built for students, by students.</p>
+        <p className="auth__panel-foot">© 2026 CAMPUS CART | Built for students | Created by <strong>Shravani</strong></p>
       </aside>
 
       <div className="auth__form-side">
